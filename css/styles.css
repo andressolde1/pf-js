@@ -34,23 +34,28 @@ aside {
     padding: 2rem;
     padding-right: 0;
     color: white;
-    position: sticky;
     top: 0;
-    height: 100vh;
+    height:20vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
+    
+    
+}
+.asidecarrito{
+    height: 100vh;
 }
 
 .logo {
-    font-weight: 400;
-    font-size: 1.3rem;
+    width: 100px;
 }
 
 .menu {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: .5rem;
+    text-align: center;
+    justify-content: center;
 }
 
 .boton-menu {
@@ -67,13 +72,7 @@ aside {
     width: 100%;
 }
 
-.boton-menu.active {
-    background-color: white;
-    color: orange;
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-    position: relative;
-}
+
 
 .boton-menu.active::before {
     content: '';
@@ -101,6 +100,8 @@ aside {
 
 .boton-carrito {
     margin-top: 2rem;
+    justify-content: center;
+    text-align: center;
 }
 .btnrestar{
     width: 1rem;
@@ -130,8 +131,6 @@ aside {
 
 main {
     background-color: white;
-    margin: 1rem;
-    margin-left: 0;
     border-radius: 2rem;
     padding: 3rem;
 }
@@ -145,6 +144,7 @@ main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
+    margin-top: 0px;
 }
 
 .producto-imagen {
@@ -190,8 +190,9 @@ main {
 
 .contenedor-carrito {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1.5rem;
+    margin-top: 0px;
 }
 
 .carrito-vacio,
@@ -201,7 +202,7 @@ main {
 
 .carrito-productos {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1rem;
 }
 

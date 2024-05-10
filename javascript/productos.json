@@ -30,16 +30,6 @@
         "precio": 79000
     },
     {
-        "id": "nike-usa",
-        "titulo": "NIKE U.S.A",
-        "imagen": "./img/nike-usa.jpg",
-        "categoria": {
-            "nombre": "Nike",
-            "id": "nike"
-        },
-        "precio": 67000
-    },
-    {
         "id": "nike-roja",
         "titulo": "Nike roja",
         "imagen": "./img/nike-roja.jpg",
@@ -48,16 +38,6 @@
             "id": "nike"
         },
         "precio": 79000
-    },
-    {
-        "id": "nike-multicolor",
-        "titulo": "Nike multicolor",
-        "imagen": "./img/nike-multicolor.jpg",
-        "categoria": {
-            "nombre": "Nike",
-            "id": "nike"
-        },
-        "precio": 69000
     },
     {
         "id": "new-balance-azul",
